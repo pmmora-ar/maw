@@ -13,6 +13,8 @@ import { PublicComponent } from './public/public.component';
 import { FooterComponent } from './footer/footer.component';
 import { TermsComponent } from './terms/terms.component';
 import { PrivacyComponent } from './privacy/privacy.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
+import { PrivateComponent } from './private/private.component';
 
 @NgModule({
   imports: [
@@ -25,7 +27,9 @@ import { PrivacyComponent } from './privacy/privacy.component';
     PublicComponent,
     FooterComponent,
     TermsComponent,
-    PrivacyComponent
+    PrivacyComponent,
+    TopBarComponent,
+    PrivateComponent
     ],
   bootstrap:    [ AppComponent ],
   providers: [

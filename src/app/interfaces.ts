@@ -14,7 +14,8 @@ export interface Email {
 export interface Wish {
   content: string,
   public: boolean,
-  groupId?: string,
+  userGroups: Array<UserGroup>,
+  createdDate: Date,
   publishedDate: Date,
   expireDate: Date,
   subscriptions: Array<Subscript>
